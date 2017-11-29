@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">흔적</string>
+    <string name="edit_message">Enter a Message</string>
+    <string name="button_send">Send</string>
+    <string name="title_activity_maps">Map</string>
+
+
+</resources>

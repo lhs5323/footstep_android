@@ -1,0 +1,99 @@
+{
+  "project_info": {
+    "project_number": "1010170344857",
+    "firebase_url": "https://fir-d96f1.firebaseio.com",
+    "project_id": "fir-d96f1",
+    "storage_bucket": "fir-d96f1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1010170344857:android:67e30bbd07adf436",
+        "android_client_info": {
+          "package_name": "com.google.firebase.udacity.freindlychat"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1010170344857-bgcia1n085n5luerhc20h0a0fncajd7h.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.google.firebase.udacity.freindlychat",
+            "certificate_hash": "a69f31339fcb445f1e29372503a334e15e295f53"
+          }
+        },
+        {
+          "client_id": "1010170344857-r5e420l9t0cfs319eiobdtjcqrcq3p2u.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB6kZevbyeB9XBjmokqxC5KEjozYEouJGc"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1010170344857-r5e420l9t0cfs319eiobdtjcqrcq3p2u.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1010170344857:android:80be45e82ff82340",
+        "android_client_info": {
+          "package_name": "com.example.hyunsukcirllee.footstep"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1010170344857-2jq1lt7022jhojnbn0s1cpsvq59g8tcb.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.hyunsukcirllee.footstep",
+            "certificate_hash": "a69f31339fcb445f1e29372503a334e15e295f53"
+          }
+        },
+        {
+          "client_id": "1010170344857-r5e420l9t0cfs319eiobdtjcqrcq3p2u.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB6kZevbyeB9XBjmokqxC5KEjozYEouJGc"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1010170344857-r5e420l9t0cfs319eiobdtjcqrcq3p2u.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

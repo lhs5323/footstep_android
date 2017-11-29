@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/multiple_footsteps"
+    tools:context="com.example.hyunsukcirllee.footstep.MainActivity">
+
+    <Button
+        android:id="@+id/take_photo_button"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:layout_width="242dp"
+        android:layout_height="0dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="50dp"
+        android:fontFamily="@font/hongchawang"
+        android:onClick="launchCamera"
+        android:paddingLeft="70dp"
+        android:paddingRight="70dp"
+        android:text="흔적 남기기"
+        android:textAlignment="center"
+        android:textSize="32sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/my_footstep"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:layout_width="242dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="32dp"
+        android:fontFamily="@font/hongchawang"
+        android:paddingLeft="70dp"
+        android:paddingRight="70dp"
+        android:text="나의 흔적"
+        android:textAlignment="center"
+        android:textSize="32sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/take_photo_button" />
+
+    <Button
+        android:id="@+id/followMy_footstep"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:onClick="showMy_footstep"
+        android:layout_width="242dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="32dp"
+        android:fontFamily="@font/hongchawang"
+        android:paddingLeft="70dp"
+        android:paddingRight="70dp"
+        android:text="Follow my 흔적"
+        android:textAlignment="center"
+        android:textSize="32sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/my_footstep" />
+
+    <Button
+        android:id="@+id/others_footstep"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:layout_width="242dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="32dp"
+        android:fontFamily="@font/hongchawang"
+        android:paddingLeft="70dp"
+        android:paddingRight="70dp"
+        android:text="다른 사람의 흔적"
+        android:textAlignment="center"
+        android:textSize="32sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/followMy_footstep" />
+</android.support.constraint.ConstraintLayout>
